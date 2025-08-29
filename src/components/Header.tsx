@@ -37,14 +37,14 @@ export const Header = () => {
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
-            <Button variant="claim" size="default" class="connect">
+            <Button variant="connect" size="default" className="connect">
               Claim Now
             </Button>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <Button variant="claim" size="sm" class="connect">
+            <Button variant="connect" size="sm" classNam="connect">
               Claim Now
             </Button>
           </div>
