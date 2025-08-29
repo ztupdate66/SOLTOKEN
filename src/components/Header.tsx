@@ -37,7 +37,7 @@ export const Header = () => {
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
-            <Button variant="connect" size="default" className="connect">
+            <button className="connect">Connect</button>
               Claim Now
             </Button>
           </div>
